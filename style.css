@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+    
+
+    text-align: center;
+    background-color: #84e1ad;
+}
+
+header{
+    background-image: linear-gradient( to bottom,#3cd681,#1a5d38);
+
+    
+    
+    padding: 20px;
+   
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+header > nav{
+    text-align: left;
+    margin-left: 20px;
+}
+
+#link{
+    color: white;
+    margin-left: 20px;
+    
+    
+}
+
+main{
+    margin:0px 300px 0px 300px;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+main >section >h1{
+    margin-top: 0px;
+}
+
+.video{
+    background-color: #1a5c38;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  
+  
+}
+
+.grid-item {
+  
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .titulo_links{
+
+    border-radius: 15px;
+    background-color: #84e1ad;
+    width: -10px;
+    border: 1px solid black;
+    
+    
+
+  }
+  .lista{
+    color: black;
+    background-color: #84e1ad;  
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
+    padding-bottom: 20px; 
+  }
+  .lista >article >h1{
+    color: white;
+    background-color: #1a5c38;  
+    padding-left: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  footer{
+    background-color: #1a5c38; 
+   padding: 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.historia{
+    text-decoration: none;
+    
+    font-weight: bold;
+    
+
+}
+
+.historia:hover{
+    text-decoration: underline;
+}
